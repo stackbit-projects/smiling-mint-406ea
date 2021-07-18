@@ -79,9 +79,9 @@ export default class HeroSection extends React.Component {
                                     'cell-md-5': isHorizontal && mediaWidth === 'sixty',
                                     'order-md-first': hasMedia && mediaPosition === 'right',
                                     'order-first': hasMedia && mediaPosition === 'bottom',
-                                    'text-center': alignX === 'center',
+                                    'text-center': align                                               X === 'center',
                                     'text-right': alignX === 'right'
-                                })}
+                                })} 
                             >
                                 {title && <h1 className="hero__title">{title}</h1>}
                                 {subtitle && <p className="hero__subtitle">{subtitle}</p>}
